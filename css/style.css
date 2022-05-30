@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#e6e9d6
+}
+#main{
+    background-color:#ffff;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 25vh;
+    border-radius: 7px;
+}
+.title{
+    font-size: 25px;
+    text-align: left;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+#mainInput{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 7px;
+}
+#input{
+    background-color: #ffff;
+    padding: 15px;
+    margin: 3px;
+    margin-bottom: 20px;
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+#plusBtn{
+    background-color: #0dcaf0;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+#plusicon{
+    width: 25px;
+    height: 25px;
+}
+.liData{
+    background-color:#eeeeee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#liText{
+
+    width: 70%;
+    padding: 15px;
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#img1{
+    width: 25px;
+    height: 25px;
+}
+#liBtn{
+    width: 20%;
+    height: 33px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;    
+}
+#img1{
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+    border: none;
+}
+#img2{
+    cursor: pointer;
+    height: 24px;
+    width: 24x;
+    padding: 5px;
+    border: none;
+    background: none;
+}
+#checkbtn{
+    cursor: pointer;
+    height: 24px;
+    width: 24x;
+    padding: 5px;
+    border: none;
+    background: none;
+}
+#msg{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: red;
+    margin-left: 5px;
+}
+
+
+
+
+@media(max-width:570px){
+    #_main{
+        width: 400px;
+    }
+    #liText{
+        width: 50%;
+    }
+    #liBtn{
+        width: 10%;  
+        display: flex;  
+    }
+    #_inputBtn{
+        width: 15%;
+    }
+}
+@media(max-width:475px){
+    #_main{
+        width: 300px;
+    }
+    #_input{
+        width: 70%;
+    }
+    #_inputBtn{
+        width: 15%;
+    }
+}
